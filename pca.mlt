@@ -1,0 +1,178 @@
+<?xml version="1.0" standalone="no"?>
+<mlt LC_NUMERIC="C" version="7.1.0" title="Shotcut version 21.10.31" producer="main_bin">
+  <profile description="automatic" width="1376" height="736" progressive="1" sample_aspect_num="1" sample_aspect_den="1" display_aspect_num="43" display_aspect_den="23" frame_rate_num="57645000" frame_rate_den="1927543" colorspace="709"/>
+  <playlist id="main_bin">
+    <property name="xml_retain">1</property>
+  </playlist>
+  <producer id="black" in="00:00:00.000" out="00:08:58.049">
+    <property name="length">00:08:58.082</property>
+    <property name="eof">pause</property>
+    <property name="resource">0</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgba</property>
+    <property name="set.test_audio">0</property>
+  </producer>
+  <playlist id="background">
+    <entry producer="black" in="00:00:00.000" out="00:08:58.049"/>
+  </playlist>
+  <chain id="chain0" out="00:04:16.987">
+    <property name="length">00:04:17.020</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Braz/Videos/Captures/1.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">b648f308821630a7a1c68a71617e2c83</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">1.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain1" out="00:00:36.414">
+    <property name="length">00:00:36.448</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Braz/Videos/Captures/2.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">6f82c37d01a640b9dab594735625c34a</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">2.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain2" out="00:03:03.043">
+    <property name="length">00:03:03.076</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Braz/Videos/Captures/3.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">10c8165aceff5a7735656b6e9f5ff648</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">3.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain3" out="00:02:08.326">
+    <property name="length">00:02:08.360</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Braz/Videos/Captures/4.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">4890cd32f3cfc6b739fdee33e83984f2</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">4.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <playlist id="playlist0">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V1</property>
+    <entry producer="chain0" in="00:00:06.989" out="00:03:55.006"/>
+    <entry producer="chain1" in="00:00:06.821" out="00:00:36.414"/>
+    <entry producer="chain2" in="00:00:14.044" out="00:02:51.528"/>
+    <entry producer="chain3" in="00:00:03.812" out="00:02:06.688"/>
+  </playlist>
+  <chain id="chain4" out="00:04:00.301">
+    <property name="length">00:04:00.334</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Braz/Videos/Captures/a1.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">24cce09523a613543dfdb08d5929e17b</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">a1.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain5" out="00:00:35.110">
+    <property name="length">00:00:35.144</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Braz/Videos/Captures/a2.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">4d702728d6922c27163849612f4c8fbe</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">a2.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain6" out="00:02:37.484">
+    <property name="length">00:02:37.518</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Braz/Videos/Captures/a3.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">842748e97cdc15dd002e3c57546dac2c</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">a3.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain7" out="00:02:02.876">
+    <property name="length">00:02:02.909</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Braz/Videos/Captures/a4.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">d28ac0d75755e463b16ac06d9ad55b49</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">a4.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <playlist id="playlist1">
+    <property name="shotcut:audio">1</property>
+    <property name="shotcut:name">A1</property>
+    <entry producer="chain4" in="00:00:03.411" out="00:03:51.428"/>
+    <entry producer="chain5" in="00:00:04.882" out="00:00:34.475"/>
+    <entry producer="chain6" in="00:00:00.000" out="00:02:37.484"/>
+    <entry producer="chain7" in="00:00:00.000" out="00:02:02.876"/>
+  </playlist>
+  <tractor id="tractor0" title="Shotcut version 21.10.31" in="00:00:00.000" out="00:08:58.049">
+    <property name="shotcut">1</property>
+    <property name="shotcut:projectAudioChannels">2</property>
+    <property name="shotcut:projectFolder">0</property>
+    <property name="shotcut:scaleFactor">0.0256355</property>
+    <track producer="background"/>
+    <track producer="playlist0"/>
+    <track producer="playlist1" hide="video"/>
+    <transition id="transition0">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition1">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="version">0.9</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="threads">0</property>
+      <property name="disable">1</property>
+    </transition>
+    <transition id="transition2">
+      <property name="a_track">0</property>
+      <property name="b_track">2</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+  </tractor>
+</mlt>
